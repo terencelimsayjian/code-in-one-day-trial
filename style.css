@@ -1,0 +1,65 @@
+/* INitial lesson */
+
+body {
+    background-color: #FCF8EE;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Roboto, Helvetica, sans-serif, arial;
+    text-decoration: underline;
+    font-style: oblique;
+    color: navy;
+    width: 300px;
+}
+
+h2 {
+    font-size: 20px;
+    font-style: italic;
+    color: orangered
+}
+
+/* Next lesson */
+
+img {
+    border: 1px solid black;
+}
+
+/*  Explain border box model */
+
+h1 {
+    border: 1px solid navy;
+    background-color: orangered;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 10px 0 10px 0;
+}
+
+.div {
+    border: 1px solid slategray;
+    border-radius: 3px;
+    box-shadow: 1px 1px grey;
+    width: 600px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/* Now what happens when we want to style a div differently */
+
+.portfolio-container {
+    display: flex;
+}
+
+.portfolio-section {
+    border: 1px solid black;
+    width: 33%;
+    margin: 10px;
+}
+
+.section-box {
+
+}
+
+.profile-box {
+
+}
